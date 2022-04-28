@@ -21,9 +21,6 @@ body {
     min-width: 500px;
 }
 
-img {
-    width: 100px;
-}
 
 ul {
     list-style: none;
@@ -83,8 +80,53 @@ a {
 .random-info {
     display: flex;
     flex-direction: column;
+    padding: 20px 0px 60px 0px;
+}
+
+.random-info h2 {
+    text-align: center;
 }
 
 .icons {
     display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.icon-text p {
+    text-align: center;
+}
+
+.icon-text img {
+    width: 150px;
+    border: rgb(84, 84, 84) 2px solid;
+    border-radius: 5px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.quote p {
+    width: 550px;
+}
+
+.quote-text {
+    font-size: 23px;
+}
+
+.quote-sayer {
+    text-align: right;
+    margin-top: -10px;
 }
